@@ -1,0 +1,582 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-mar-2017, 20.22.52
+    Author     : Maria Francesca
+*/
+
+
+/*Task 3*/
+body
+{
+    background-color: #E0F2F1;
+    font-family: "Georgia", "Times New Roman";
+    color: black;
+    font-size: 15px;
+    
+}
+
+h1
+{
+    color: #7986CB;
+    font-family: "Palatino Linotype", "Times New Roman";
+    font-size: 30px;
+}
+
+h2
+{
+    color: #3F51B5;
+    font-family: "Palatino Linotype", "Times New Roman";
+    font-size: 25px;
+}
+
+h3
+{
+    color: #283593;
+    font-family: "Palatino Linotype", "Times New Roman";
+    font-size: 20px;
+}
+
+h4
+{
+    color: #1A237E;
+    font-family: "Palatino Linotype", "Times New Roman";
+    font-size: 17px;
+}
+
+a, a:link
+{
+    color: #0097A7;
+    font-family: "Franklin Gothic";
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+a:visited
+{
+    color: #26C6DA;
+    font-family: "Franklin Gothic";
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+a:hover
+{
+    color: #00ACC1;
+    font-family: "Franklin Gothic";
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:active
+{
+    font-family: "Franklin Gothic";
+    font-size: 15px;
+    text-decoration: blink;
+}
+
+input[type="text"], input[type="password"], textarea, select
+{
+    background-color: #bfb8ff;
+    border: 1px solid black;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: "Verdana", "Tahoma", "Corbel";
+    font-size: 13.5px;
+}
+
+input[type="text"], input[type="password"], textarea
+{
+    width: 180px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus
+{
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: "Verdana", "Tahoma", "Corbel";
+    font-size: 13.5px;
+}
+
+button[type="submit"]
+{
+    color: black;
+    border: 1px solid black;
+    background-color: #d0b9e0;
+    padding: 5px;
+    font-family: "Constantia";
+    font-size: 17px;
+}
+
+button[type="submit"]:focus
+{
+    color: black;
+    border: 1px solid #979498;
+    background-color: #81559f;
+    padding: 5px;
+    font-family: "Constantia";
+    font-size: 17px;
+}
+
+button[type="submit"]:hover
+{
+    color: white;
+    border: 1px solid #003487;
+    background-color: #00254d;
+    padding: 5px;
+    font-family: "Constantia";
+    font-size: 17px;
+}
+
+footer
+{
+    width:400px;
+    background-color:  #ccccff;
+    padding: 0;
+    padding-left: 7px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-top: 0.05px;
+    margin-top: 10px;
+    border: 1px solid #6666ff;
+}
+
+/* Fine Task 3*/
+ul.Amici, ul.Gruppi
+{
+    list-style-type: none;
+}
+    
+ul.Amici
+{
+    list-style-image: url('img/friend.png');
+}
+    
+ul.Gruppi
+{
+    list-style-image: url('img/group.png');
+}
+
+ul#ulDescrizione
+{
+    list-style-type: square;
+}
+
+/*Task 4*/
+section.postBacheca
+{
+    border: 1px solid #3395b3;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #97d6ed;
+    font-family: "Verdana";
+}
+
+section.postBacheca > h3
+{
+    padding:0;
+    margin: 0;
+    padding-top: 2px;
+}
+
+image
+{
+    z-index: 100;
+}
+
+h3.userNameBacheca
+{
+    z-index: 99;
+    clear: left;
+    display: relative;
+    padding-left: 100px;
+}
+/*fine Task 4*/
+
+/*Task 5*/
+article#loginForm
+{
+    border: 1px solid #3083a2;
+    background-color: #a7d8e9;
+    width: 500px;
+    padding: 30px;
+}
+
+button#buttonLogin
+{
+    margin: 20px;
+    margin-left: 233px;
+}
+
+article#loginForm input
+{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 13px;
+    padding: 10px;
+}
+
+article#loginForm label
+{
+    padding-top: 10px;
+    font-family: "Constantia";
+    font-size: 16px;
+}
+
+
+div#Registrazione
+{
+    display: inline-table;
+    padding: 15px;
+}
+
+span.row
+{
+    display: table-row;
+    width: 500px;
+}
+
+span.row label
+{
+    display: table-cell;
+    padding: 25px;
+}
+
+span.row input
+{
+    display: table-cell;
+}
+
+span.row select
+{
+    display: table-cell;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button#buttonProfilo
+{
+    margin-top: 50px;
+    margin-left: 237px;
+    margin-bottom: 50px;
+}
+
+label#data
+{
+    margin-bottom: 15px;
+}
+/*Fine Task 5*/
+
+/*Task 6*/
+@media only screen and (min-width: 1024px)
+{
+    body
+    {
+        margin-left: 390px;
+        margin-top: 30px;
+        padding: 15px;
+    }
+    
+    
+    /*Barra navigazione*/
+    nav.barranavigazione
+    {
+        width: 100%;
+        height: 50px;
+        background-color: #d2c1d8;
+        border-bottom: 1px solid #aaa1ad;
+        top: 0;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    ul.ulBarraNavigazione
+    {
+        list-style-type: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul.ulBarraNavigazione > li
+    {
+        float: left;
+        font-size: 16px;
+    }
+    
+    ul.ulBarraNavigazione > li > a
+    {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        padding: 16px 16px;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    
+    ul.ulBarraNavigazione > li > a:hover
+    {
+        background-color: #8e699a;
+        font-size: 16px;
+    }
+    
+    ul.ulBarraNavigazione > li.userNameRight
+    {
+        float: right;
+        right: 10px;
+        text-transform: none;
+    }
+    
+    /*Fine barra navigazione*/
+    
+    /*Sidebar*/
+    
+    nav.sidebar
+    {
+        height: 100%;
+        width: 350px;
+        background-color: #c4b2df;
+        border-right: 1px solid #aaa1ad;
+        position: fixed;
+        margin: 0;
+        padding: 10px;
+        top:50px;
+        left: 0;
+    }
+    
+    nav.sidebar > h4
+    {
+        padding-left: 10px;
+    }
+    
+    /* Fine Sidebar*/
+    
+}
+
+@media only screen and (max-width: 480px)
+{
+       body
+    {
+        padding: 15px;
+        margin-top: 50px;
+        
+    }
+    
+    
+    /*Barra navigazione*/
+    nav.barranavigazione
+    {
+        width: 100%;
+        height: 50px;
+        background-color: #d2c1d8;
+        border-bottom: 1px solid #aaa1ad;
+        border-right: 1px solid #aaa1ad;
+        top: 0;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    ul.ulBarraNavigazione
+    {
+        list-style-type: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        display: block;
+        top: 0;
+        
+    }
+    
+    ul.ulBarraNavigazione > li
+    {
+        float: left;
+        font-size: 13px;
+        top: 0;
+        
+    }
+    
+    ul.ulBarraNavigazione > li > a
+    {
+        display: inline;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        padding: 5px 5px;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    
+    ul.ulBarraNavigazione > li > a:hover
+    {
+        background-color: #8e699a;
+        font-size: 13px;
+    }
+    
+    ul.ulBarraNavigazione > li.userNameRight
+    {
+        float: left;
+        right: 10px;
+        text-transform: none;
+    }
+    
+    /*Fine barra navigazione*/
+    
+    /*Sidebar*/
+    
+    nav.sidebar
+    {
+        width: 50%;
+        height: 50px;
+        top: 90px;
+        font-size: 13px;
+        position: fixed;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    div.shortcut
+    {
+        display: none;
+        position: relative;
+        top:-80px;
+        left: 40px;
+        padding: 3px;
+        border: 1px solid #3366ff;
+        
+    }
+    
+    nav.sidebar:hover div.shortcut
+    {
+        display: block;
+        background: #ccccff;
+    }
+    
+    .h3sidebar
+    {
+        float: left;
+        text-transform: uppercase;
+        font-family: "Times New Roman";
+        color: black;
+        font-size: 13px;
+        text-decoration: none;
+        font-weight: inherit;
+        position: relative;
+        top: -80px;
+        left: 100px;
+        
+    }
+    
+    nav.sidebar > h4
+    {
+        padding-left: 5px;
+        padding: 5px;
+    }
+    
+    /* Fine Sidebar*/
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px)
+{
+    body
+    {
+        margin-left: 270px;
+        margin-top: 30px;
+        padding: 15px;
+    }
+    
+    
+    /*Barra navigazione*/
+    nav.barranavigazione
+    {
+        width: 100%;
+        height: 50px;
+        background-color: #d2c1d8;
+        border-bottom: 1px solid #aaa1ad;
+        top: 0;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    ul.ulBarraNavigazione
+    {
+        list-style-type: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul.ulBarraNavigazione > li
+    {
+        float: left;
+        font-size: 14px;
+    }
+    
+    ul.ulBarraNavigazione > li > a
+    {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        padding: 16px 16px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    
+    ul.ulBarraNavigazione > li > a:hover
+    {
+        background-color: #8e699a;
+        font-size: 14px;
+    }
+    
+    ul.ulBarraNavigazione > li.userNameRight
+    {
+        float: right;
+        right: 10px;
+        text-transform: none;
+    }
+    
+    /*Fine barra navigazione*/
+    
+    /*Sidebar*/
+    
+    nav.sidebar
+    {
+        height: 100%;
+        width: 250px;
+        background-color: #c4b2df;
+        border-right: 1px solid #aaa1ad;
+        position: fixed;
+        margin: 0;
+        padding: 10px;
+        top:50px;
+        left: 0;
+    }
+    
+    nav.sidebar > h4
+    {
+        padding-left: 10px;
+    }
+    
+    /* Fine Sidebar*/
+}
+
+/* Fine task 6*/
