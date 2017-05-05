@@ -13,7 +13,7 @@ and open the template in the editor.
 body
 {
     background-color: #E0F2F1;
-    font-family: "Georgia", "Times New Roman";
+    font-family: "Verdana","Georgia", "Times New Roman";
     color: black;
     font-size: 15px;
     
@@ -50,7 +50,7 @@ h4
 a, a:link
 {
     color: #0097A7;
-    font-family: "Franklin Gothic";
+    font-family: "Verdana", "Franklin Gothic";
     font-size: 15px;
     text-decoration: underline;
 }
@@ -58,7 +58,7 @@ a, a:link
 a:visited
 {
     color: #26C6DA;
-    font-family: "Franklin Gothic";
+    font-family: "Verdana","Franklin Gothic";
     font-size: 15px;
     text-decoration: line-through;
 }
@@ -66,14 +66,14 @@ a:visited
 a:hover
 {
     color: #00ACC1;
-    font-family: "Franklin Gothic";
+    font-family: "Verdana","Franklin Gothic";
     font-size: 15px;
     text-decoration: none;
 }
 
 a:active
 {
-    font-family: "Franklin Gothic";
+    font-family: "Verdana","Franklin Gothic";
     font-size: 15px;
     text-decoration: blink;
 }
